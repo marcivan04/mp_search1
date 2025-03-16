@@ -1,0 +1,22 @@
+{
+"courses": [
+ {
+"year_level": "2nd",
+"sem": "2nd",
+"code": "IT223",
+"description": "Web Systems & Technologies",
+"credit": "3.0"
+},
+{
+"year_level": "1st",
+"sem": "2nd",
+"code": "IT123",
+"description": "Discrete Mathematics",
+"credit": "3.0"
+
+}
+
+]
+}
+
+
