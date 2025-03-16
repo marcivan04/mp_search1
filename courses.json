@@ -1,22 +1,40 @@
 {
-"courses": [
- {
-"year_level": "2nd",
-"sem": "2nd",
-"code": "IT223",
-"description": "Web Systems & Technologies",
-"credit": "3.0"
-},
-{
-"year_level": "1st",
-"sem": "2nd",
-"code": "IT123",
-"description": "Discrete Mathematics",
-"credit": "3.0"
-
-}
-
-]
-}
-
-
+    "courses": [
+     {
+    "year_level": "2nd",
+    "sem": "2nd",
+    "code": "IT223",
+    "description": "Web Systems & Technologies",
+    "credit": "3.0"
+    },
+    {
+    "year_level": "1st",
+    "sem": "2nd",
+    "code": "IT123",
+    "description": "Discrete Mathematics",
+    "credit": "3.0"
+    },
+    {
+    "year_level": "2nd Year",
+    "sem": "2nd",
+    "code": "IT221",
+    "description": "Information Management",
+    "credit": "3.0"
+    },
+    {
+    "year_level": "2nd Year",
+    "sem": "2nd",
+    "code": "IT224",
+    "description": "System Integration and Architecture",
+    "credit": "3.0"
+    },
+    {
+    "year_level": "2nd Year",
+    "sem": "2nd",
+    "code": "IT222",
+    "description": "Networking 1",
+    "credit": "3.0"
+    }
+    
+    ]
+    }
