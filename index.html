@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc Ivan Nocete | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #007BFF;
+        }
+        h1 {
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #e9ecef;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background: #007BFF;
+            color: white;
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 10px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .contact input, .contact textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s ease;
+        }
+        .contact button:hover {
+            background: #0056b3;
+        }
+
+        /* Improved Search Bar */
+        #searchBar {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px;
+            margin: 20px auto;
+            border: 2px solid #007BFF;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            display: block;
+            transition: 0.3s ease-in-out;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        #searchBar:focus {
+            border-color: #0056b3;
+            box-shadow: 0 0 10px rgba(0, 91, 255, 0.3);
+        }
+
+        /* Improved Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+            font-size: 18px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        tbody tr:hover {
+            background-color: #dbeafe;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://assets.onecompiler.app/438ua52tm/438u9r623/475530596_28454598940821800_5843362911477504495_n.jpg" alt="Marc Ivan Nocete" class="profile-pic">
+        <h1>Marc Ivan Nocete</h1>
+        <p>Student | Bachelor of Science in Information Technology </p>
+
+        <div class="section about-me">
+            <h2>About Me</h2>
+            <p>Hi, I'm Marc Ivan Nocete, an IT student exploring web development and database management.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <p>City Central School (2016-2017)</p>
+            <p>Angeles Sisters National Highschool (2017-2019)</p>
+            <p>Bayanga National Highschool (2022-2023)</p>
+            <p>University of Science and Technology of Southern Philippines (Undergraduate)</p>
+        </div>
+
+        <div class="section hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Singing</li>
+                <li>Playing MOBA</li>
+                <li>Watching Movies</li>
+                <li>Watching Movies</li>
+            </ul>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.facebook.com/marcivangavino.nocete" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/marcivangavino.nocete" target="_blank">Facebook</a>
+            <a href="https://www.facebook.com/marcivangavino.nocete" target="_blank">Facebook</a>
+        </div>
+    </div>
+
+    <div id="contact" class="container contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <input type="text" id="searchBar" placeholder="Search courses...">
+        <table id="courseTable">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Instructor</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web System and Technologies</td>
+                    <td>Al-Monte Vince Calo</td>
+                    <td>6 Months</td>
+                </tr>
+                <tr>
+                    <td>Discrete Mathematics</td>
+                    <td>Julie Catherine De Los Santos</td>
+                    <td>6 Months</td>
+                </tr>
+                <tr>
+                    <td>Information Management</td>
+                    <td>Geraldine Blanco</td>
+                    <td>6 months</td>
+                </tr>
+                <tr>
+                    <td>System Integration Architecture</td>
+                    <td>Jay Noel Rojo</td>
+                    <td>6 Months</td>
+                </tr>
+                <tr>
+                    <td>Networking 1</td>
+                    <td>Jeanizza Marie Badoles</td>
+                    <td>6 Months</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById("searchBar").addEventListener("keyup", function () {
+            let filter = this.value.toLowerCase();
+            let rows = document.querySelectorAll("#courseTable tbody tr");
+
+            rows.forEach(row => {
+                let text = row.textContent.toLowerCase();
+                row.style.display = text.includes(filter) ? "" : "none";
+            });
+        });
+    </script>
+
+</body>
+</html>
